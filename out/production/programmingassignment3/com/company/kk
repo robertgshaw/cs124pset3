@@ -1,0 +1,9 @@
+#!/bin/bash
+
+# Make sure you have 3 command line args
+if [ $# -eq 1 ]
+then
+	java Main "$1"
+else
+	java Main
+fi
